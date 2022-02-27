@@ -1,0 +1,14 @@
+# following commands can be tested to run on a db tool, such as mysql workbench
+
+# to create a database
+create database testdb;
+
+# to create a table in a database
+create table testdb.testtable (
+    id_col text,
+    numeric_col numeric
+);
+
+#to insert data into a table
+insert into testdb.testtable
+values (123,43);
