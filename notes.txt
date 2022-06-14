@@ -1,0 +1,1 @@
+Sql is not case sensitive
